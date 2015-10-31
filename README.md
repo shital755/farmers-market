@@ -1,0 +1,2 @@
+# farmer-s-market
+Our idea is about to create android application for farmers.These days farmers having problem to sell their product or grain.so in this application we provide the facility to farmer using that farmer can easily sell their grain.so in this application the role of farmer is farmer can upload their product details and vendors can check it.if both parties are agree they will make deal with each other.

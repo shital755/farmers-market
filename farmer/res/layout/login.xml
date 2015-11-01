@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/bg" >
+
+
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/shop_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="LOGIN"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textColor="#fff9f5" />
+    </ScrollView>
+
+    TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="For richer experience"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/l_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fadingEdge="none"
+        android:hint="Enter your Username"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/l_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="**********"
+        android:inputType="textPassword"
+        android:paddingBottom="0dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp" />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/l_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="20dp"
+    android:paddingTop="10dp"
+
+    android:text="LOGIN"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp" />
+
+<Button
+    android:id="@+id/l_reg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/textView3"
+    android:layout_marginTop="20dp"
+
+
+    android:text="SIGN UP"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp" />
+
+<Button
+    android:id="@+id/Fpass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="FORGOT PASSWORD ? "
+    android:textColor="#FFFFFF"
+    android:textSize="20sp" />
+
+</LinearLayout>
+
+
+
